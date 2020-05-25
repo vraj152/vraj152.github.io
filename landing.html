@@ -42,17 +42,17 @@
 					<div id="main">
 
 							<section id="two" class="spotlights">
-								<section>
-									<a href="" class="image">
+								<section id="part1">
+									<a href="#part1" class="image">
 										<img src="images/gmaps_portfolio.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Shortest Path on GoogleMaps using A*</h3>
+												<h3>Shortest Path on GoogleMaps using A*, May 2020</h3>
 											</header>
 											<p>Applied A* algorithm in order to find shortest path from given source and destination. Data extracted from OSM, and contains ~27k nodes and ~63k edges. It always tries to find the optimal path. So, in most cases it shows the path which is suggested by Google when you select travelling mode as "Walk".</p>
-											<h4>Tech and third party APIs used:</h4>
+											<h4>Technologies and third party APIs used:</h4>
 											<ul class="alt">
 												<li>Python.</li>
 												<li>Google Maps Javascript API.</li>
@@ -60,39 +60,96 @@
 											</ul>
 
 											<ul class="actions">
-												<li><a href="" class="button">Learn more</a></li>
+												<li><a href="https://github.com/vraj152/googlemapsastar" class="button">git repository</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
-								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" />
+								<section id="part2">
+									<a href="#part2" class="image" style="margin-top:200px">
+										<img src="images/cs520project_portfolio.gif" alt="" data-position="top center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Rhoncus magna</h3>
+												<h3>Hand Written Digit Recognition, CS520 Spring-2020</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>Applied different classification algorithms like Bayesian Network, Perceptron Learning, Neural Netwrok, MIRA on famous MNIST dataset. Developed above mentioned algorithms from scratch. Got accuracy 77.2%, 81.4%, 79.4%, 80.6% respectively. Accuracy is bit low because we were given a small part of original dataset. This project was part of <a href="http://rl.cs.rutgers.edu/cs520spring2017.html" target="_blank">CS520</a> coursework.</p>
+											<p>Also developed UI, where user can draw image and model will predict the letter. (Output demo can be found in GIT repo under outcome folder.)</p>
+											<h4>Technologies used:</h4>
+											<ul class="alt">
+												<li>Algorithms and API developed in Python.</li>
+												<li>UI built using HTML, Javascript.</li>
+												<li>Connection between front-end and back-end using AJAX.</li>
+											</ul>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="https://github.com/vraj152/projectcs520" class="button">git repository</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
-								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+								<section id="part3">
+									<a href="#part3" class="image" style="margin-top:200px">
+										<img src="images/moviere_portfolio.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Sed nunc ligula</h3>
+												<h3>Movie Recommendation System, CS550 Spring-2020</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>Implemented two of the very famous algorithms Content Based Recommendation System and Item-Item CF. Developed algorithms from scratch. We were given dataset of MovieLens which had ~9700 movies and total ~100k reviews. Used genres of a movie as feature. Given particular userID, program should reccomend top-10 movies to user. Got RMSE of 0.91 and 1.04 respectively. This project was part of <a href="http://yongfeng.me/teaching/s2018/" target="_blank" class="link">CS550 </a> coursework.</p> 
+											<p>Also developed UI, where you give userID and server will return 10 movies with heighst similarity and those will be recommended to user. Output will be rendered within 2 seconds. (Output demo can be found in GIT repo under outcome folder.)</p>
+											<h4>Technologies used:</h4>
+											<ul class="alt">
+												<li>Algorithms and API developed in Python.</li>
+												<li>UI built using HTML, Javascript.</li>
+												<li>Connection between front-end and back-end using AJAX.</li>
+											</ul>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="https://github.com/vraj152/projectcs550" class="button">git repository</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="part4">
+									<a href="#part4" class="image" style="margin-top:100px">
+										<img src="images/accenture_portfolio.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>OnePPM, Accenture: Oct'18-Nov'19</h3>
+											</header>
+											<p>OnePPM is project and portfolio management tool which is built on top of 
+											<a href="https://www.broadcom.com/products/software/business-management/clarity-project-portfolio-management-software" class="link">ClarityPPM</a>, which is internally used by one of the leading swiss banks. Developed several modules related to timesheet management. Also I was part of client's internal research team. Where we were developing chatbot to reduce human efforts involved in solving repeatedly raised issues using NLP techniques. </p>
+											<h4>Technologies used:</h4>
+											<ul class="alt">
+												<li>Java and XOG (XML Open Gateway) for OnePPM.</li>
+												<li>NLP using python.</li>
+												<li>ServiceNow.</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="part5">
+									<a href="#part5" class="image" style="margin-top:150px">
+										<img src="images/songdown_portfolio.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Song Downloader, June 2018</h3>
+											</header>
+											<p>Built android application which scraps data from very well-known Indian online music streaming service called <a href="https://www.jiosaavn.com/" class="link">JioSaavn</a>. API has been hosted using diffrent services of AWS. Also you can stream and download <em>ANY</em> song available on application without Premium Account. I still use this application to download songs.</p>
+											<p>P.S: I was not using GIT at that time, so I don't have code handy of that application. However, I have uploaded video which was recorded in my phone. Do watch it.</p>
+											<h4>Technologies used:</h4>
+											<ul class="alt">
+												<li>API developed in Python.</li>
+												<li>Java for Android.</li>
+												<li>AWS Services like: Lambda, API Gateway, S3.</li>
+											</ul>
+											<ul class="actions">
+												<li><a href="https://drive.google.com/file/d/1NvkuS3cx_1HJwAbB6zMNpQD9L8l0jGDD/view?usp=drivesdk" class="button">demo video</a></li>
 											</ul>
 										</div>
 									</div>
@@ -131,22 +188,23 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
+										<a href="#">vraj.shah@rutgers.edu</a>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
 										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
+										<span>+1 (732) 640-6384</span>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-home"></span>
 										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
+										<span>10, Paul Robeson Blvd<br />
+										Apt 08S, Riverside Towers<br />
+										New Brunswick, NJ - 08901<br />
 										United States of America</span>
 									</div>
 								</section>
@@ -154,18 +212,14 @@
 						</div>
 					</section>
 
-				<!-- Footer -->
 					<footer id="footer">
-						<div class="inner">
+						<div class="inner" align="center">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li><a href="https://twitter.com/vraj152" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/vraj.shah.9022/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/vraj_152/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/vraj152" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/vrajshah152/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 						</div>
 					</footer>
